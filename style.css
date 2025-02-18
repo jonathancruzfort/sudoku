@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+
+    width: 40px;
+    height: 40px;
+}
+
+.b-right {
+    border-right: 3px solid black;
+}
+
+.b-bottom {
+    border-bottom: 3px solid black;
+}
